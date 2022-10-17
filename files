@@ -1,8 +1,0 @@
-a = input("Введите имя файла")
-b = input("Введите новое расширение")
-c = a.rfind(".")
-res = ""
-print(c)
-if c < 0:
-    res = res + b
-     
