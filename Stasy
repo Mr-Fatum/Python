@@ -1,0 +1,12 @@
+a = int(input())
+print(type(a))
+b = "0123456789"
+c = 0
+for i in b:
+    if a == i:
+        a = c
+    c = c + 1
+print(a)
+while a < 10:
+    if a == b[i]:
+        i = i + 1
